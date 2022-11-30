@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="=with=device-width, initial-scale=1.0">
+    
+    
+    <title>sjcklevel.com</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+            <div class="menu">
+            
+                    <a href="http://127.0.0.1:5500/index.html" style="color:rgb(239, 233, 233);">HOME</a>
+                    <a href="https://www.bing.com/search?q=k+levels&form=ANNTH1&refig=4721d47502c14718a729572024808594" style="color: rgb(247, 244, 244);">ABOUT</a>
+                    <a href="#" style="color: rgb(238, 235, 235);">SERVICE</a>
+                    <a href="#" style="color: rgb(243, 238, 238);">DESIGN</a>
+                    <a href="#" style="color: rgb(246, 244, 244);">CONTACT</a>
+        
+            </div>
+            <br>
+            <br>
+        </div> 
+        <div class="content">
+            <h1 style="color:rgb(247, 244, 244);border: 200px ; border-color: rgb(247, 243, 243);">CHECKING QUESTION LEVEL <br></h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <form action="/" method="post">
+                <div class="search">
+                    <h1 style="color:rgba(235, 227, 227, 0.996) ;">Enter The Question</h1><br>
+                    <input class="srch" type="search" name="question" placeholder="Type Here" style="height: 30px; width: 500px; background-color: rgb(68, 63, 63);">
+                    <input type="submit"/>
+                    </div>
+            </form>
+            <% if(resultString.length && questionString.length) {%>
+                <div class="result-body"  >
+                    <label> Question:</label>
+                    <h6 class="q"> <%= questionString %> </h6>
+                    <label>Result:</label>
+                    <p class="r"> <%= resultString %> </p>
+                </div>
+            <% } %>
+                
+                <div>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
